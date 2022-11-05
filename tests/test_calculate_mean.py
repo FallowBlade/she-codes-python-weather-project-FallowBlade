@@ -4,6 +4,8 @@ import weather
 
 class CalculateMeanTests(unittest.TestCase):
 
+
+# The tests help you to understand the expected output for your functions
     def __init__(self, *args, **kwargs):
         unittest.TestCase.__init__(self, *args, **kwargs)
         self.maxDiff = None

@@ -33,3 +33,4 @@ class CalculateMeanTests(unittest.TestCase):
         expected_result = -52.5
         result = weather.calculate_mean(temperatures)
         self.assertEqual(result, expected_result)
+
